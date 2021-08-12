@@ -8,7 +8,7 @@ using FilePathsBase
 using FastAI.Datasets
 using DLPipelines
 import DataAugmentation
-import DataAugmentation: getbounds
+import DataAugmentation: getbounds, NormalizeRow
 using Flux
 using Flux.Optimise: Optimiser, apply!
 using StaticArrays
